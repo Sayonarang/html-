@@ -1,0 +1,89 @@
+@charset "utf-8"; /*한글적용*/
+div{
+    width:200px;
+    height:200px;
+}
+
+.box1{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: red;
+    float:left;
+}
+.box1:hover{  /*마우스를 올리면*/
+    background-color: yellow;
+}
+
+.box2{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: rgb(53, 139, 139); 
+    float:left;
+}
+
+.box3{
+    width:200px;
+    height:200px; 
+    border:3px solid rgb(204, 0, 255); 
+    background-color: aquamarine;
+    float:left;
+}
+
+.box4{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: hotpink;
+    clear:left;
+    float:left;
+}
+
+.box5{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: bisque;
+    float:left;
+}
+
+.box6{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: rgb(196, 235, 255);
+    float:left;
+}
+
+
+.box7{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: rgb(255, 196, 199);
+    clear:left;
+    float:left;
+}
+
+
+.box8{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: darkorchid;
+    float:left;
+}
+
+.box9{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: greenyellow;
+    float:left;
+}
+
+
+
+
+
