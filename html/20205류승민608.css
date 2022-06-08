@@ -1,4 +1,8 @@
 @charset "utf-8"; /*한글적용*/
+div{
+    width:200px;
+    height:200px;
+}
 
 .box1{
     width:200px;
@@ -19,9 +23,8 @@
 .box3{
     width:200px;
     height:200px; 
-    border:3px solid blue; 
+    border:3px solid rgb(204, 0, 255); 
     background-color: aquamarine;
-    clear:left;
     float:left;
 }
 
@@ -29,7 +32,7 @@
     width:200px;
     height:200px; 
     border:3px solid blue; 
-    background-color: rebeccapurple;
+    background-color: hotpink;
     clear:left;
     float:left;
 }
@@ -41,3 +44,43 @@
     background-color: bisque;
     float:left;
 }
+
+.box6{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: rgb(196, 235, 255);
+    float:left;
+}
+
+
+.box7{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: rgb(255, 196, 199);
+    clear:left;
+    float:left;
+}
+
+
+.box8{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: darkorchid;
+    float:left;
+}
+
+.box9{
+    width:200px;
+    height:200px; 
+    border:3px solid blue; 
+    background-color: greenyellow;
+    float:left;
+}
+
+
+
+
+
