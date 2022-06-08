@@ -13,6 +13,7 @@ div{
 }
 .box1:hover{  /*마우스를 올리면*/
     background-color: yellow;
+    padding: 5px;
 }
 
 .box2{
@@ -64,6 +65,8 @@ div{
     background-color: rgb(255, 196, 199);
     clear:left;
     float:left;
+
+
 }
 
 
@@ -73,6 +76,8 @@ div{
     border:3px solid blue; 
     background-color: darkorchid;
     float:left;
+    position:absolute;
+    margin-top:400;
 }
 
 .box9{
@@ -81,6 +86,10 @@ div{
     border:3px solid blue; 
     background-color: greenyellow;
     float:left;
+    position:absolute;
+    margin-top:400;
+
+
 }
 
 
