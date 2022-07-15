@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout1-html4</title>
+    <style>
+        #wrap {width: 960px; height: 800px; margin: 0 auto; color: #fff; text-align: center; /*center 글자가 가운데로 정렬*/
+        font-size: 30px;} /*mar 블록 구조가 가운데로 옴   color 모든 글자가 보임*/ 
+        #header{width: 960px; line-height: 100px; background-color: #111;} /*960으로 하면 가장 모든 해상도의 적합한 사이즈가 됨*/
+        #nav{width: 960px; line-height: 100px; background-color: #222;}
+        #sidebar{width: 360px; line-height: 500px; background-color: #333; float: left;} /*구조가 안깨지고 깨끗해짐*/
+        #contents{width: 600px;line-height: 500px; background-color: #444; float: left;}
+        #footer{width: 960px; line-height: 100px; background-color: #555; clear: both;} /*바닥이 생김*/
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="sidebar">sidebar</div>
+        <div id="contents">contents</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
