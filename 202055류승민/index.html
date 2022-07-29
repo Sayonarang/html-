@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>매일경제</title>
+</head>
+<style>
+    body {
+        margin: 0px; /* 0px 4px 10px 5px 위 아래 오른쪽 왼쪽  */
+    }
+    #top-view {
+        background-color: #efefef;
+        height: 30px;
+        color: #666666;
+        font-size: 12px;
+    }
+    #top-view > nav {
+        margin-left: auto;
+        margin-right: auto;
+        width: 980px;
+        /* background-color: blueviolet; 컨트롤 / 누르면 주석*/   
+    }
+    #top-view ul{
+        padding-left: 0px;
+        padding-top: 7px;
+        margin: 0px;
+    }
+    #top-view ul li {
+        display: inline-block;  /* 박스형태를 유지하면서 인라인 오른쪽  */
+    }
+    #top-view ul li:not(:first-child){           /* first-child 첫번 째 만 적용  last-child 마지막 적용 nth-child(1) 몇 번째를 적용할지 not(:first-child)첫 번째 빼고 */
+        margin-left: 7px;
+    }
+    #top-view ul:first-child{
+        float: right;
+    }
+    #top-view ul:first-child li::after{
+        content: ' |';
+    }
+    #top-view ul:first-child li:last-child{ 
+        content: ' ';
+    }
+    #container {
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin: 0px auto; 같은 의미  */
+        height: 1500px;
+        background-color: cadetblue;
+    }
+    #header{
+        height: 150px;
+        background-color: coral;
+    }
+    #main-title-box {
+        background-color: blueviolet;
+        height: 110px;
+
+    }
+    #main-title-box img.logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #main-title-box img.logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+</style>
+<body>
+    <div id="top-view">
+        <nav>
+            <ul>
+                <li>ENGLISH</li> 
+                <li>中國語</li> 
+                <li>日本語</li> 
+                <li>신문PDF</li> 
+                <li>구독신청</li> 
+                <li>로그인</li> 
+                <li>회원가입</li> 
+            </ul>
+            <ul>
+                <li>매일경제</li> 
+                <li>MBN</li> 
+                <li>매일경제TV</li> 
+                <li>매경ECONOMY</li> 
+                <li>매경LUXMEN</li> 
+                <li>CITYLIFE</li> 
+                <li>GFW</li> 
+                <li>M-PRINT</li> 
+                <li>매경출판</li> 
+            </ul>
+        </nav>
+    </div>
+
+    <div id="container">  <!-- 감싸고 있다  -->
+       
+        <style>
+        #main-title-box .weather-guide{
+            background: red;
+            height: 50px;
+            width: 200px;
+            position: absolute;
+            top: 30px;
+            left: 10px;
+            }
+        </style>
+
+        <div id="header">
+            <div id="main-title-box" style="position: relative">
+                <div class="weather-guide">
+                    <div><img src="image2.png"></div>
+                    <div>2022.07.29(금) 33.1C 울산</div>
+                </div>
+                <img  class="logo" src="image.gif">
+            </div>
+            <div class="top-menu">
+
+            </div>
+        
+        </div>
+
+            <div id="main-view">     <!-- 가운데 메인 -->
+           
+            
+        </div>
+ 
+
+</body>
+</html>
+
